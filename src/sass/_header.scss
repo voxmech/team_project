@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Epilogue"
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.title {
+    color: #FFF;
+
+    font-family: Epilogue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.45px;
+}
+
+.main-header {
+    width: 100%;
+    border-bottom: 1px solid var(--cornflower);
+    background: #141414;
+    padding: 11px 0px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 76px;
+}
+
+.header-nav {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+.nav-list li a {
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    color: #FFF;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 8px;
+
+    border-radius: 8px;
+    background: var(--dark-green, #1E2827);
+    padding: 0 auto;
+}
+
+.address a {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.hero-section {
+    width: 100%;
+    background-color: black;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-container h1 {
+
+    color: #FFF;
+    /* Heading 1 */
+    font-family: Epilogue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    /* 103.333% */
+    letter-spacing: -2.4p
+}
+
+.hero-container p {
+    color: var(--white, #FFF);
+    /* main text */
+    font-family: Epilogue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+}
+
+// .swiper-section {}
+
+// .swiper-container {}
+
+// .swiper-slide {}
